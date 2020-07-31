@@ -80,3 +80,11 @@
     }
   }
 }
+
+@media (max-width: 273px) {
+  .attribution a {
+    display: block;
+    padding: 0 !important;
+    border: 0 !important;
+  }
+}

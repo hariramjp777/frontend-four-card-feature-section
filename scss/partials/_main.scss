@@ -1,0 +1,55 @@
+main {
+  width: 80%;
+  margin: auto;
+  font-size: 1.5rem;
+
+  div {
+    padding: 2rem 3rem;
+    box-shadow: 0px 9px 14px -2px color(grayishBlue);
+    border-radius: 0.7rem;
+    border-top: 0.5rem solid;
+    margin-bottom: 2rem;
+    word-wrap: break-word;
+
+    dl {
+      margin-bottom: 2.5rem;
+
+      dt {
+        color: color(veryDarkBlue);
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      dd {
+        color: color(grayishBlue);
+        font-weight: 400;
+        line-height: 1.9;
+      }
+    }
+
+    figure {
+      text-align: right;
+
+      img {
+        width: 5.4rem;
+      }
+    }
+  }
+
+  .cyan {
+    border-top-color: color(cyan);
+  }
+
+  .red {
+    border-top-color: color(red);
+  }
+
+  .orange {
+    border-top-color: color(orange);
+  }
+
+  .blue {
+    border-top-color: color(blue);
+  }
+}
